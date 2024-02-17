@@ -27,7 +27,7 @@ The Next.js project is [`apps/web`](./apps/web) which has `monorepo-sdk` linked 
 
 On the `main` branch of this repository, the Next.js app uses `@disintegrator/httpbin-client` to generate UUIDs using https://httpbin.org/uuid and everything works as expected.
 
-On the `broken` branch of this repository, the Next.js app uses the workspace package `monorepo-sdk` to generate UUIDs using https://httpbin.org/uuid but it will not render the page and instead throw an error:
+On the `broken` branch of this repository, the Next.js app uses the workspace package `monorepo-sdk` to generate UUIDs using https://httpbin.org/uuid but it will not render the page and instead throw the error above.
 
 ## Random notes
 
