@@ -1,6 +1,6 @@
 "use client";
 
-import { GhAcme as SDK } from "@disintegrator/httpbin-client";
+import { GhAcme as SDK } from "monorepo-sdk";
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
 
