@@ -18,6 +18,7 @@ export function ClientIDCard() {
   const query = useQuery({
     queryKey: ["uuid"],
     queryFn: () => generateUUID(sdk),
+    refetchOnWindowFocus: false,
   });
 
   return (
